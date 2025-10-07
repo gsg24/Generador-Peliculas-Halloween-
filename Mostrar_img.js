@@ -3,7 +3,7 @@ const movies = [
     { title: "Coraline", img: "image1.jpg" },
     { title: "Casper", img: "image2.jpg" },
     { title: "Mansión Encantada", img: "image3.jpg" },
-    { title: "Pesadilla antes de Navidad", img: "image4" },
+    { title: "Pesadilla antes de Navidad", img: "image4.jpg" },
     { title: "Cazafantasmas", img: "image5.jpg" }
 ];
 
