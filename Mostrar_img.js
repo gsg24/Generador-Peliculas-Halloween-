@@ -1,10 +1,10 @@
 // Lista de películas (nombre y ruta de imagen)
 const movies = [
-    { title: "Hocus Pocus", img: "Assets/image1.jpg" },
-    { title: "El Extraño Mundo de Jack", img: "Assets/image2.jpg" },
-    { title: "Casper", img: "Assets/image3.jpg" },
-    { title: "Coraline", img: "Assets/image4" },
-    { title: "Pesadilla en Elm Street", img: "Assets/image5.jpg" }
+    { title: "Hocus Pocus", img: "image1.jpg" },
+    { title: "El Extraño Mundo de Jack", img: "image2.jpg" },
+    { title: "Casper", img: "image3.jpg" },
+    { title: "Coraline", img: "image4" },
+    { title: "Pesadilla en Elm Street", img: "image5.jpg" }
 ];
 
 const btn = document.getElementById('randomBtn');
