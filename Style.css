@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-/* Título */
+/* Título principal */
 h1 {
     font-size: 3em;
     color: #ff6f61; /* naranja Halloween */
@@ -42,15 +42,17 @@ button:hover {
     margin-top: 30px;
 }
 
-/* Imagen de la película */
+/* Imagen de la película - tamaño uniforme */
 #movieImage {
-    max-width: 80%;
+    width: 300px;        /* ancho fijo */
+    height: 450px;       /* alto fijo */
+    object-fit: cover;   /* mantiene proporción y recorta si hace falta */
     border-radius: 15px;
     margin-top: 20px;
     box-shadow: 0 0 20px #ff6f61;
     display: block;
     margin-left: auto;
-    margin-right: auto; /* centra horizontalmente */
+    margin-right: auto;
 }
 
 /* Título de la película */
