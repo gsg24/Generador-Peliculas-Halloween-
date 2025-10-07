@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6f61;
+    text-shadow: 2px 2px #6a0572;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background: linear-gradient(45deg, #ffb347, #ffcc33);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.movie-display {
+    margin-top: 30px;
+}
+
+.movie-display img {
+    max-width: 80%;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px #ff6f61;
+}
